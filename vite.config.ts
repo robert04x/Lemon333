@@ -1,19 +1,14 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// vite.config.js
-export default {
-  build: {
-    rollupOptions: {
-      external: ['/App.tsx']
-    }
-  }
-};
-
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+  rollupOptions: {
+    external: ['/App.tsx']
+  }
 });
