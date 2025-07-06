@@ -10,11 +10,6 @@ export default defineConfig({
   build: {
   rollupOptions: {
     external: ['/App.tsx']
-  }
-  }
-}
-  build: {
-  rollupOptions: {
     external: ["/index.css"]
   }
   }
