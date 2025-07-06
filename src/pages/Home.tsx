@@ -3,7 +3,7 @@ import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { Clock, MapPin, Phone, Mail, Diamond as Lemon } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import Background3D from '../components/Background3D';
-import logo from './src/Lemon Logo - Final.png'
+import logo from '/src/Lemon Logo - Final.png'
 
 const SimpleLogo = () => {
   return (
