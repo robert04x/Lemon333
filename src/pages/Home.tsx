@@ -8,7 +8,11 @@ const SimpleLogo = () => {
   return (
     <div className="mb-8">
       <div className="w-20 h-20 rounded-full bg-yellow-400 flex items-center justify-center border-2 border-white shadow-md mx-auto">
-        <Lemon className="text-white w-8 h-8" />
+        <img
+          src="/src/Lemon.svg"
+          alt="Logo"
+          className="w-8 h-8 object-contain"
+        />
       </div>
     </div>
   );
