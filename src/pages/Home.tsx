@@ -9,9 +9,8 @@ const SimpleLogo = () => {
     <div className="mb-8">
       <div className="w-20 h-20 rounded-full bg-yellow-400 flex items-center justify-center border-2 border-white shadow-md mx-auto">
         <img
-          src="../src/Lemon Logo - Final.png"
-          alt="Logo"
-          className="w-8 h-8 object-contain"
+          src="./src/Lemon Logo - Final.png"
+          className="w-12 h-12 object-contain"
         />
       </div>
     </div>
